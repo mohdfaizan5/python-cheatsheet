@@ -97,3 +97,20 @@ Feature Branches = A workflow.
 ```terminal
 
 ```
+
+
+
+## errors
+
+warnings: 
+
+1. “warning: LF will be replaced by CRLF”
+
+> by default autocrlf is to True,
+> just change to False
+```
+$ git config core.autocrlf --> True
+$ git config --global core.autocrlf false
+$ git config core.autocrlf --> False
+
+```
