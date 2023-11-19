@@ -1,0 +1,30 @@
+user command/user interface: python faces.py <options>
+
+Input                        Output
+------                       ------
+ 1. Hello :) Goodbye :(     Hello hello_emoji Goodbye gb_emoji
+ 2. Hello :)                Hello hello_emoji
+ 3. Goodbye :(              Goodbye gb_emoji
+
+faces.py
+--------
+1. sys.argv/uses input() function
+2. user_input <it is of type str>
+3. input_str.replace(":)", "h_emoji").replace(":(", "gb_emoji")
+
+
+UI : python twttr.py 
+
+input
+
+1. Twitter ===> Twttr
+2. 
+
+S1. Taking input from user
+S2. Lowering the input
+s3. replace "a" with ""
+s4. replace "e" with ""
+s5. replace "i" with ""
+s6. replace "o" with ""
+s7. replace "u" with ""
+s8. print the output without vowels.
